@@ -1,0 +1,57 @@
+
+        body {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin: 0;
+            padding: 20px;
+            font-family: 'Courier New', Courier, monospace;
+        }
+        
+        .box {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 20vw;
+            height: 20vh;
+            min-width: 200px;
+            min-height: 150px;
+            color: white;
+            transition: 0.5s;
+            cursor: pointer;
+            text-align: center;
+            font-size: 1.5rem;
+        }
+        
+        .yellow {
+            background-color: yellow;
+            color: black;
+        }
+        
+        .red {
+            background-color: red;
+        }
+        
+        .green {
+            background-color: green;
+        }
+        
+        .blue {
+            background-color: blue;
+        }
+        
+        /* Responsividade */
+        @media (max-width: 768px) {
+            .box {
+                width: 100%;
+                margin-bottom: 20px;
+            }
+        }
+        
+        /* Efeitos de hover */
+        .box:hover {
+            transform: scale(1.1);
+            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
+            border-radius: 10px;
+        }
+        

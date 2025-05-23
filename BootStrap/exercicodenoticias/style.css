@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f3f3f3;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estiliza o contêiner central */
+.container {
+    max-width: 800px;
+    margin: 20px auto;
+}
+
+/* Estiliza o cartão Bootstrap */
+.card {
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estiliza o título da notícia */
+.card-title {
+    color: #333;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Estiliza o conteúdo da notícia */
+.card-text {
+    color: #444;
+    font-size: 16px;
+}
+
+.card-text small {
+    color: #666;
+    font-size: 14px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: auto;
+}

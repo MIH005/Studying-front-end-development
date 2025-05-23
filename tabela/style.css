@@ -1,0 +1,21 @@
+table{
+    width: 100%;
+    border-collapse: collapse;
+    border: 1px solid black;
+    text-align: center;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+
+}
+tbody, tr, td{
+    border: 1px solid black;
+    padding: 2vh;
+}
+
+thead{
+    background-color: black;
+    color: white;
+}
+table tr:nth-child(even) { /* essa "função" nth-child é usada com um parematro para fazer algo, no nosso caso passamos o oarametro even (que signifa par em ingles) para que mude o background */
+    background-color: #f2f2f2;
+}
